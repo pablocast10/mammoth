@@ -23,7 +23,7 @@
     "lop": "~0.4.0",
     "path-is-absolute": "^1.0.0",
     "sax": "~1.1.1",
-    "underscore": "~1.8.3",
+    "underscore": "~1.12.1",
     "xmlbuilder": "^10.0.0"
   },
   "devDependencies": {
