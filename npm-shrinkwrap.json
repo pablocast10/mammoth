@@ -1,6 +1,6 @@
 {
   "name": "mammoth",
-  "version": "1.4.6",
+  "version": "1.4.9",
   "lockfileVersion": 1,
   "requires": true,
   "dependencies": {
@@ -37,7 +37,7 @@
       "dependencies": {
         "acorn": {
           "version": "3.3.0",
-          "resolved": "http://registry.npmjs.org/acorn/-/acorn-3.3.0.tgz",
+          "resolved": "https://registry.npmjs.org/acorn/-/acorn-3.3.0.tgz",
           "integrity": "sha1-ReN/s56No/JbruP/U2niu18iAXo=",
           "dev": true
         }
@@ -542,7 +542,7 @@
       "dependencies": {
         "readable-stream": {
           "version": "2.0.6",
-          "resolved": "http://registry.npmjs.org/readable-stream/-/readable-stream-2.0.6.tgz",
+          "resolved": "https://registry.npmjs.org/readable-stream/-/readable-stream-2.0.6.tgz",
           "integrity": "sha1-j5A0HmilPMySh4jaz80Rs265t44=",
           "dev": true,
           "requires": {
@@ -1462,11 +1462,18 @@
       "dev": true
     },
     "jszip": {
-      "version": "2.5.0",
-      "resolved": "https://registry.npmjs.org/jszip/-/jszip-2.5.0.tgz",
-      "integrity": "sha1-dET9hVHd8+XacZj+oMkbyDCMwnQ=",
+      "version": "2.7.0",
+      "resolved": "https://registry.npmjs.org/jszip/-/jszip-2.7.0.tgz",
+      "integrity": "sha512-JIsRKRVC3gTRo2vM4Wy9WBC3TRcfnIZU8k65Phi3izkvPH975FowRYtKGT6PxevA0XnJ/yO8b0QwV0ydVyQwfw==",
       "requires": {
-        "pako": "~0.2.5"
+        "pako": "~1.0.2"
+      },
+      "dependencies": {
+        "pako": {
+          "version": "1.0.11",
+          "resolved": "https://registry.npmjs.org/pako/-/pako-1.0.11.tgz",
+          "integrity": "sha512-4hLB8Py4zZce5s4yd9XzopqwVv/yGNhV1Bl8NTmCq1763HeK2+EwVTv+leGeL13Dnh2wfbqowVPXCIO0z4taYw=="
+        }
       }
     },
     "labeled-stream-splicer": {
@@ -1639,7 +1646,7 @@
       "dependencies": {
         "debug": {
           "version": "2.0.0",
-          "resolved": "http://registry.npmjs.org/debug/-/debug-2.0.0.tgz",
+          "resolved": "https://registry.npmjs.org/debug/-/debug-2.0.0.tgz",
           "integrity": "sha1-ib2d9nMrUSVrxnBTQrugLtEhMe8=",
           "dev": true,
           "requires": {
@@ -1841,7 +1848,8 @@
     "pako": {
       "version": "0.2.9",
       "resolved": "https://registry.npmjs.org/pako/-/pako-0.2.9.tgz",
-      "integrity": "sha1-8/dSL073gjSNqBYbrZ7P1Rv4OnU="
+      "integrity": "sha1-8/dSL073gjSNqBYbrZ7P1Rv4OnU=",
+      "dev": true
     },
     "parents": {
       "version": "1.0.1",
@@ -2332,7 +2340,7 @@
       "dependencies": {
         "rimraf": {
           "version": "2.2.8",
-          "resolved": "http://registry.npmjs.org/rimraf/-/rimraf-2.2.8.tgz",
+          "resolved": "https://registry.npmjs.org/rimraf/-/rimraf-2.2.8.tgz",
           "integrity": "sha1-5Dm+Kq7jJzIZUnMPmaiSnk/FBYI=",
           "dev": true
         }
